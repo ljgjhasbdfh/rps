@@ -44,11 +44,17 @@ button img {
 
 .image-buttons {
     background-color: rgba(0, 0, 0, 0);
+    background-color: gainsboro;
+    border: dashed 1px black;
+}
+
+.image-buttons-play {
+    background-color: rgba(0, 0, 0, 0);
     background-color: azure;
     border: solid 1px black;
 }
 
-.image-buttons:hover {
+.image-buttons-play:hover {
     box-shadow: 1px 3px 0px 1px #000000;
     transform: translateY(-3px) translateX(0px);
 }

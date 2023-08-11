@@ -65,6 +65,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // change appearance of start button while in progress
         startButton.classList.add('button-in-progress');
+
+        // change appearance of user buttons while in progress
+        button0input.classList.add('image-buttons-play');
+        button1input.classList.add('image-buttons-play');
+        button2input.classList.add('image-buttons-play');
+
+        button0input.classList.add('image-buttons-play:hover');
+        button1input.classList.add('image-buttons-play:hover');
+        button2input.classList.add('image-buttons-play:hover');
     }
 
     function playRound(choice) {
@@ -289,6 +298,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // return start button to normal appearance
         startButton.classList.remove('button-in-progress');
+
+        // return play buttons to normal appearance
+        button0input.classList.remove('image-buttons-play');
+        button1input.classList.remove('image-buttons-play');
+        button2input.classList.remove('image-buttons-play');
+
+        button0input.classList.remove('image-buttons-play:hover');
+        button1input.classList.remove('image-buttons-play:hover');
+        button2input.classList.remove('image-buttons-play:hover');
     }
     
     // event listener for starting the game
