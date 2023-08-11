@@ -163,11 +163,15 @@ button img {
 #output_gamma_comp {
     background-color: lightcoral;
     padding: 7px;
+    min-height: 40px;
+    height: auto;
 }
 
 #output_gamma_user {
     background-color: lightskyblue;
     padding: 7px;
+    min-height: 40px;
+    height: auto;
 }
 
 #user_spot {
