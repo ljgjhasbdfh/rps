@@ -104,10 +104,10 @@ document.addEventListener("DOMContentLoaded", function() {
         // get tally and add to scoreboard
         getTally();
 
-        messageUser = "User tally: " + (userTally);
+        messageUser = "Your tally: " + (userTally);
         boxUser = "output_gamma_user";
         overwriteContent(messageUser, boxUser);
-        messageComp = "Computer tally: " + (computerTally);
+        messageComp = "Red tally: " + (computerTally);
         boxComp = "output_gamma_comp";
         overwriteContent(messageComp, boxComp);
     
